@@ -1,0 +1,12 @@
+server:
+  port: 9094
+spring:
+  application:
+    name: ORDER-SERVICE
+  data:
+    mongodb:
+      repositories:
+        enabled: true
+  profiles:
+    active: dev
+
